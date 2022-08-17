@@ -1,0 +1,24 @@
+body {
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #cccccccc;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#counter-board {
+  font-size: 35px;
+}
+
+.button-section {
+  padding: 6px 12px;
+  cursor: pointer;
+}
